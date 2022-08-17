@@ -1,0 +1,58 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+td {
+    padding-right: 8px;
+}
+
+.example-right-align {
+    text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+}
+
+input.example-right-align {
+    -moz-appearance: textfield;
+}
+
+#form form {
+    padding: 80px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#form div {
+    display: flex;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+#form button {
+    align-self: center;
+}
+
+#table {
+    padding: 80px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+table {
+    width: 70%;
+}
+
+.mat-row.highlight .mat-cell {
+    background-color: red;
+}
